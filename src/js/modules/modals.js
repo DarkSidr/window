@@ -24,7 +24,7 @@ const modals = () => {
                 const errorMessage = document.createElement("div");
                 errorMessage.textContent = "Заполните обязательные поля";
                 errorMessage.classList.add("status");
-                elem.querySelector(".popup_calc_content").append(errorMessage);
+                elem.append(errorMessage);
               }
             });
           } else {
